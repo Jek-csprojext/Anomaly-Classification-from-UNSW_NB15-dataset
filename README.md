@@ -1,5 +1,8 @@
-# 
+# Anomaly-Classification-from-UNSW_NB15-dataset
 
-該 專 案 的 主 要 目 標 是 使 用 U N S W - N B 1 5 資 料 集 開 發 一 套 異 常 檢 測 系 統 ， 用 於 網 路 入 侵 偵 測 。 網 路 安 全 是 當 今 數 位 時 代 的 關 鍵 問 題 ， 有 效 偵 測 異
-常 活 動 對 於 保 護 敏 感 資 訊 和 維 護 網 路 基 礎 設 施 的 完 整 性 至 關 重 要 。 該 計 劃 藉 由 機 器 學 習 技 術 ， 特 別 是 自 動 編 碼 器 ( A u t o E n c o d e r ) 、 卷 積 神 經 網 路
-（ C N N ） 和 雙 向 ⻑ 短 期 記 憶 （ B i L S T M ） ， 以 識 別 和 分 類 異 常 網 路 流 量 。
+## 專案目標
+本專案的主要目標是使用 UNSW-NB15 資料集 開發一套異常檢測系統，用於 網路入侵偵測 (Intrusion Detection System, IDS)。隨著網路攻擊手法日益複雜，異常檢測在保護敏感資訊與維護基礎設施完整性上扮演著關鍵角色。本計畫利用機器學習與深度學習方法，特別是：
+- Autoencoder：進行特徵壓縮與重建誤差檢測
+- Convolutional Neural Network (CNN)：提取網路流量的區域特徵
+- Bidirectional LSTM (BiLSTM)：捕捉時序與上下文關係
+藉此識別並分類異常網路流量，提升入侵偵測的準確度。
